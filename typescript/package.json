@@ -1,0 +1,44 @@
+{
+  "name": "competitive-programming",
+  "version": "1.0.0",
+  "description": "Type script solutions for competitive-programming problems from various sites",
+  "main": "dist/AllSolutions.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "build": "run-s lint compile",
+    "build:run": "run-s lint compile run",
+    "build:test": "run-s lint compile test",
+    "lint": "eslint src/**",
+    "run": "node dist/src/",
+    "test": "node ./node_modules/jasmine/bin/jasmine.js --config=./jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalaatHarb/competitive-programming.git"
+  },
+  "keywords": [
+    "typescript",
+    "competitive-programming"
+  ],
+  "author": "M. Talaat Harb",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TalaatHarb/competitive-programming/issues"
+  },
+  "homepage": "https://github.com/TalaatHarb/competitive-programming#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.10.2",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.5.0",
+    "jasmine": "^3.10.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@types/node": "^14.17.4"
+  }
+}
