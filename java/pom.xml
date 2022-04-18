@@ -36,7 +36,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<mainClass>
-								net.talaatharb.competitiveprogramming.AllSolutions
+								Main
 							</mainClass>
 						</manifest>
 					</archive>
