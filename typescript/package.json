@@ -12,7 +12,7 @@
     "build:run": "run-s lint compile run",
     "build:test": "run-s lint compile test",
     "lint": "eslint src/**",
-    "run": "node dist/src/",
+    "run": "node dist/index.js",
     "test": "node ./node_modules/jasmine/bin/jasmine.js --config=./jasmine.json"
   },
   "repository": {
